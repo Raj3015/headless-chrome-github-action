@@ -1,6 +1,6 @@
 name: Run Python Tests on headless-chrom browser
 on:
-  push:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
